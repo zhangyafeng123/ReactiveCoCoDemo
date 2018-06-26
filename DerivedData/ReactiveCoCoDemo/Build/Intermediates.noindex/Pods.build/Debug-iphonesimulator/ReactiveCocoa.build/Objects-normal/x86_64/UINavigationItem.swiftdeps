@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "title"]
+- ["13ReactiveSwift0A0V", "titleView"]
+- ["13ReactiveSwift0A0V", "prompt"]
+- ["13ReactiveSwift0A0V", "backBarButtonItem"]
+- ["13ReactiveSwift0A0V", "hidesBackButton"]
+- ["13ReactiveSwift0A0V", "leftBarButtonItems"]
+- ["13ReactiveSwift0A0V", "rightBarButtonItems"]
+- ["13ReactiveSwift0A0V", "leftBarButtonItem"]
+- ["13ReactiveSwift0A0V", "rightBarButtonItem"]
+- ["13ReactiveSwift0A0V", "leftItemsSupplementBackButton"]
+- ["13ReactiveSwift0A0V", "largeTitleDisplayMode"]
+- ["13ReactiveSwift0A0V", "searchController"]
+- ["13ReactiveSwift0A0V", "hidesSearchBarWhenScrolling"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "BindingTarget"
+- "Bool"
+- "Reactive"
+- "String"
+- "UIBarButtonItem"
+- "UINavigationItem"
+- "UISearchController"
+- "UIView"
+depends-member:
+- ["s7CVarArgP", "LargeTitleDisplayMode"]
+- !private ["s7CVarArgP", "backBarButtonItem"]
+- !private ["s7CVarArgP", "hidesBackButton"]
+- !private ["s7CVarArgP", "hidesSearchBarWhenScrolling"]
+- !private ["s7CVarArgP", "largeTitleDisplayMode"]
+- !private ["s7CVarArgP", "leftBarButtonItem"]
+- !private ["s7CVarArgP", "leftBarButtonItems"]
+- !private ["s7CVarArgP", "leftItemsSupplementBackButton"]
+- !private ["s7CVarArgP", "prompt"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- !private ["s7CVarArgP", "rightBarButtonItems"]
+- !private ["s7CVarArgP", "searchController"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "titleView"]
+- ["s28CustomDebugStringConvertibleP", "LargeTitleDisplayMode"]
+- !private ["s28CustomDebugStringConvertibleP", "backBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesBackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesSearchBarWhenScrolling"]
+- !private ["s28CustomDebugStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "leftBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "leftItemsSupplementBackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "prompt"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItems"]
+- !private ["s28CustomDebugStringConvertibleP", "searchController"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "titleView"]
+- ["s23CustomStringConvertibleP", "LargeTitleDisplayMode"]
+- !private ["s23CustomStringConvertibleP", "backBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "hidesBackButton"]
+- !private ["s23CustomStringConvertibleP", "hidesSearchBarWhenScrolling"]
+- !private ["s23CustomStringConvertibleP", "largeTitleDisplayMode"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "leftBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "leftItemsSupplementBackButton"]
+- !private ["s23CustomStringConvertibleP", "prompt"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItems"]
+- !private ["s23CustomStringConvertibleP", "searchController"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "titleView"]
+- ["s9EquatableP", "LargeTitleDisplayMode"]
+- !private ["s9EquatableP", "backBarButtonItem"]
+- !private ["s9EquatableP", "hidesBackButton"]
+- !private ["s9EquatableP", "hidesSearchBarWhenScrolling"]
+- !private ["s9EquatableP", "largeTitleDisplayMode"]
+- !private ["s9EquatableP", "leftBarButtonItem"]
+- !private ["s9EquatableP", "leftBarButtonItems"]
+- !private ["s9EquatableP", "leftItemsSupplementBackButton"]
+- !private ["s9EquatableP", "prompt"]
+- !private ["s9EquatableP", "rightBarButtonItem"]
+- !private ["s9EquatableP", "rightBarButtonItems"]
+- !private ["s9EquatableP", "searchController"]
+- !private ["s9EquatableP", "title"]
+- !private ["s9EquatableP", "titleView"]
+- ["s8HashableP", "LargeTitleDisplayMode"]
+- !private ["s8HashableP", "backBarButtonItem"]
+- !private ["s8HashableP", "hidesBackButton"]
+- !private ["s8HashableP", "hidesSearchBarWhenScrolling"]
+- !private ["s8HashableP", "largeTitleDisplayMode"]
+- !private ["s8HashableP", "leftBarButtonItem"]
+- !private ["s8HashableP", "leftBarButtonItems"]
+- !private ["s8HashableP", "leftItemsSupplementBackButton"]
+- !private ["s8HashableP", "prompt"]
+- !private ["s8HashableP", "rightBarButtonItem"]
+- !private ["s8HashableP", "rightBarButtonItems"]
+- !private ["s8HashableP", "searchController"]
+- !private ["s8HashableP", "title"]
+- !private ["s8HashableP", "titleView"]
+- ["So8NSCodingP", "LargeTitleDisplayMode"]
+- !private ["So8NSCodingP", "backBarButtonItem"]
+- !private ["So8NSCodingP", "hidesBackButton"]
+- !private ["So8NSCodingP", "hidesSearchBarWhenScrolling"]
+- !private ["So8NSCodingP", "largeTitleDisplayMode"]
+- !private ["So8NSCodingP", "leftBarButtonItem"]
+- !private ["So8NSCodingP", "leftBarButtonItems"]
+- !private ["So8NSCodingP", "leftItemsSupplementBackButton"]
+- !private ["So8NSCodingP", "prompt"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- !private ["So8NSCodingP", "rightBarButtonItems"]
+- !private ["So8NSCodingP", "searchController"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "titleView"]
+- ["So8NSObjectC", "LargeTitleDisplayMode"]
+- !private ["So8NSObjectC", "backBarButtonItem"]
+- !private ["So8NSObjectC", "hidesBackButton"]
+- !private ["So8NSObjectC", "hidesSearchBarWhenScrolling"]
+- !private ["So8NSObjectC", "largeTitleDisplayMode"]
+- !private ["So8NSObjectC", "leftBarButtonItem"]
+- !private ["So8NSObjectC", "leftBarButtonItems"]
+- !private ["So8NSObjectC", "leftItemsSupplementBackButton"]
+- !private ["So8NSObjectC", "prompt"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- !private ["So8NSObjectC", "rightBarButtonItems"]
+- !private ["So8NSObjectC", "searchController"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "titleView"]
+- ["So16NSObjectProtocolP", "LargeTitleDisplayMode"]
+- !private ["So16NSObjectProtocolP", "backBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "hidesBackButton"]
+- !private ["So16NSObjectProtocolP", "hidesSearchBarWhenScrolling"]
+- !private ["So16NSObjectProtocolP", "largeTitleDisplayMode"]
+- !private ["So16NSObjectProtocolP", "leftBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "leftBarButtonItems"]
+- !private ["So16NSObjectProtocolP", "leftItemsSupplementBackButton"]
+- !private ["So16NSObjectProtocolP", "prompt"]
+- !private ["So16NSObjectProtocolP", "rightBarButtonItem"]
+- !private ["So16NSObjectProtocolP", "rightBarButtonItems"]
+- !private ["So16NSObjectProtocolP", "searchController"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["So16NSObjectProtocolP", "titleView"]
+- ["13ReactiveSwift0A0V", "BindingTarget"]
+- ["13ReactiveSwift0A0V", "Bool"]
+- ["13ReactiveSwift0A0V", "String"]
+- ["13ReactiveSwift0A0V", "UIBarButtonItem"]
+- ["13ReactiveSwift0A0V", "UINavigationItem"]
+- ["13ReactiveSwift0A0V", "UISearchController"]
+- ["13ReactiveSwift0A0V", "UIView"]
+- ["13ReactiveSwift0A0V", "backBarButtonItem"]
+- ["13ReactiveSwift0A0V", "hidesBackButton"]
+- ["13ReactiveSwift0A0V", "hidesSearchBarWhenScrolling"]
+- ["13ReactiveSwift0A0V", "largeTitleDisplayMode"]
+- ["13ReactiveSwift0A0V", "leftBarButtonItem"]
+- ["13ReactiveSwift0A0V", "leftBarButtonItems"]
+- ["13ReactiveSwift0A0V", "leftItemsSupplementBackButton"]
+- !private ["13ReactiveSwift0A0V", "makeBindingTarget"]
+- ["13ReactiveSwift0A0V", "prompt"]
+- ["13ReactiveSwift0A0V", "rightBarButtonItem"]
+- ["13ReactiveSwift0A0V", "rightBarButtonItems"]
+- ["13ReactiveSwift0A0V", "searchController"]
+- ["13ReactiveSwift0A0V", "title"]
+- ["13ReactiveSwift0A0V", "titleView"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "LargeTitleDisplayMode"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "backBarButtonItem"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "hidesBackButton"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "hidesSearchBarWhenScrolling"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "largeTitleDisplayMode"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "leftBarButtonItem"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "leftBarButtonItems"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "leftItemsSupplementBackButton"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "prompt"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "rightBarButtonItem"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "rightBarButtonItems"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "searchController"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "title"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "titleView"]
+- ["So16UINavigationItemC", "LargeTitleDisplayMode"]
+- !private ["So16UINavigationItemC", "backBarButtonItem"]
+- !private ["So16UINavigationItemC", "hidesBackButton"]
+- !private ["So16UINavigationItemC", "hidesSearchBarWhenScrolling"]
+- !private ["So16UINavigationItemC", "largeTitleDisplayMode"]
+- !private ["So16UINavigationItemC", "leftBarButtonItem"]
+- !private ["So16UINavigationItemC", "leftBarButtonItems"]
+- !private ["So16UINavigationItemC", "leftItemsSupplementBackButton"]
+- !private ["So16UINavigationItemC", "prompt"]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So16UINavigationItemC", "rightBarButtonItems"]
+- !private ["So16UINavigationItemC", "searchController"]
+- !private ["So16UINavigationItemC", "title"]
+- !private ["So16UINavigationItemC", "titleView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LargeTitleDisplayMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesBackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesSearchBarWhenScrolling"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "largeTitleDisplayMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "leftItemsSupplementBackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prompt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItems"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "searchController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleView"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "13ReactiveSwift0A0V"
+- "13ReactiveSwift0A18ExtensionsProviderP"
+- "So16UINavigationItemC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "8f193e77703f9a6cdcc285edde0e0042"

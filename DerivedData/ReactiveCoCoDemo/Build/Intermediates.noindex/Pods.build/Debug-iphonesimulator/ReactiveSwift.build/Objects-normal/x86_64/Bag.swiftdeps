@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Bag"
+provides-nominal:
+- "13ReactiveSwift3BagV"
+- "13ReactiveSwift3BagV5TokenV"
+- "13ReactiveSwift3BagV8IteratorV"
+provides-member:
+- ["13ReactiveSwift3BagV", ""]
+- ["13ReactiveSwift3BagV5TokenV", ""]
+- ["13ReactiveSwift3BagV8IteratorV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "<"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bag"
+- "ContiguousArray"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "RandomAccessCollection"
+- "UInt64"
+depends-member:
+- ["13ReactiveSwift3BagV", "ContiguousArray"]
+- ["13ReactiveSwift3BagV", "Element"]
+- ["13ReactiveSwift3BagV", "Index"]
+- ["13ReactiveSwift3BagV", "Indices"]
+- ["13ReactiveSwift3BagV", "Int"]
+- ["13ReactiveSwift3BagV", "Iterator"]
+- ["13ReactiveSwift3BagV", "IteratorProtocol"]
+- ["13ReactiveSwift3BagV", "SubSequence"]
+- ["13ReactiveSwift3BagV", "Token"]
+- ["13ReactiveSwift3BagV", "UInt64"]
+- ["13ReactiveSwift3BagV", "_Default_Element"]
+- ["13ReactiveSwift3BagV", "_Default_Index"]
+- ["13ReactiveSwift3BagV", "_Default_Indices"]
+- ["13ReactiveSwift3BagV", "_Default_SubSequence"]
+- ["13ReactiveSwift3BagV", "_copyContents"]
+- ["13ReactiveSwift3BagV", "_copyToContiguousArray"]
+- ["13ReactiveSwift3BagV", "_customContainsEquatableElement"]
+- ["13ReactiveSwift3BagV", "_customIndexOfEquatableElement"]
+- ["13ReactiveSwift3BagV", "_failEarlyRangeCheck"]
+- ["13ReactiveSwift3BagV", "_preprocessingPass"]
+- ["13ReactiveSwift3BagV", "count"]
+- ["13ReactiveSwift3BagV", "deinit"]
+- ["13ReactiveSwift3BagV", "distance"]
+- ["13ReactiveSwift3BagV", "drop"]
+- ["13ReactiveSwift3BagV", "dropFirst"]
+- ["13ReactiveSwift3BagV", "dropLast"]
+- !private ["13ReactiveSwift3BagV", "elements"]
+- ["13ReactiveSwift3BagV", "endIndex"]
+- ["13ReactiveSwift3BagV", "filter"]
+- ["13ReactiveSwift3BagV", "first"]
+- ["13ReactiveSwift3BagV", "forEach"]
+- ["13ReactiveSwift3BagV", "formIndex"]
+- ["13ReactiveSwift3BagV", "index"]
+- ["13ReactiveSwift3BagV", "indices"]
+- ["13ReactiveSwift3BagV", "init"]
+- ["13ReactiveSwift3BagV", "insert"]
+- ["13ReactiveSwift3BagV", "isEmpty"]
+- ["13ReactiveSwift3BagV", "last"]
+- ["13ReactiveSwift3BagV", "makeIterator"]
+- ["13ReactiveSwift3BagV", "map"]
+- !private ["13ReactiveSwift3BagV", "nextToken"]
+- ["13ReactiveSwift3BagV", "prefix"]
+- ["13ReactiveSwift3BagV", "remove"]
+- ["13ReactiveSwift3BagV", "split"]
+- ["13ReactiveSwift3BagV", "startIndex"]
+- ["13ReactiveSwift3BagV", "subscript"]
+- ["13ReactiveSwift3BagV", "suffix"]
+- !private ["13ReactiveSwift3BagV", "tokens"]
+- ["13ReactiveSwift3BagV", "underestimatedCount"]
+- ["s23BidirectionalCollectionP", "Element"]
+- ["s23BidirectionalCollectionP", "Index"]
+- ["s23BidirectionalCollectionP", "Indices"]
+- ["s23BidirectionalCollectionP", "Iterator"]
+- ["s23BidirectionalCollectionP", "SubSequence"]
+- ["s23BidirectionalCollectionP", "Token"]
+- ["s23BidirectionalCollectionP", ""]
+- ["s23BidirectionalCollectionP", "_Default_Element"]
+- ["s23BidirectionalCollectionP", "_Default_Index"]
+- ["s23BidirectionalCollectionP", "_Default_Indices"]
+- ["s23BidirectionalCollectionP", "_Default_SubSequence"]
+- ["s23BidirectionalCollectionP", "_copyContents"]
+- ["s23BidirectionalCollectionP", "_copyToContiguousArray"]
+- ["s23BidirectionalCollectionP", "_customContainsEquatableElement"]
+- ["s23BidirectionalCollectionP", "_customIndexOfEquatableElement"]
+- ["s23BidirectionalCollectionP", "_failEarlyRangeCheck"]
+- ["s23BidirectionalCollectionP", "_preprocessingPass"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "distance"]
+- ["s23BidirectionalCollectionP", "drop"]
+- ["s23BidirectionalCollectionP", "dropFirst"]
+- ["s23BidirectionalCollectionP", "dropLast"]
+- !private ["s23BidirectionalCollectionP", "elements"]
+- ["s23BidirectionalCollectionP", "endIndex"]
+- ["s23BidirectionalCollectionP", "filter"]
+- ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "forEach"]
+- ["s23BidirectionalCollectionP", "formIndex"]
+- ["s23BidirectionalCollectionP", "index"]
+- ["s23BidirectionalCollectionP", "indices"]
+- ["s23BidirectionalCollectionP", "isEmpty"]
+- ["s23BidirectionalCollectionP", "last"]
+- ["s23BidirectionalCollectionP", "makeIterator"]
+- ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "nextToken"]
+- ["s23BidirectionalCollectionP", "prefix"]
+- !private ["s23BidirectionalCollectionP", "remove"]
+- !private ["s23BidirectionalCollectionP", "reversed"]
+- ["s23BidirectionalCollectionP", "split"]
+- ["s23BidirectionalCollectionP", "startIndex"]
+- ["s23BidirectionalCollectionP", "subscript"]
+- ["s23BidirectionalCollectionP", "suffix"]
+- !private ["s23BidirectionalCollectionP", "tokens"]
+- ["s23BidirectionalCollectionP", "underestimatedCount"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Index"]
+- ["s10CollectionP", "Indices"]
+- ["s10CollectionP", "Iterator"]
+- ["s10CollectionP", "SubSequence"]
+- ["s10CollectionP", "Token"]
+- ["s10CollectionP", ""]
+- ["s10CollectionP", "_Default_Element"]
+- ["s10CollectionP", "_Default_Index"]
+- ["s10CollectionP", "_Default_Indices"]
+- ["s10CollectionP", "_Default_SubSequence"]
+- ["s10CollectionP", "_copyContents"]
+- ["s10CollectionP", "_copyToContiguousArray"]
+- ["s10CollectionP", "_customContainsEquatableElement"]
+- ["s10CollectionP", "_customIndexOfEquatableElement"]
+- ["s10CollectionP", "_failEarlyRangeCheck"]
+- ["s10CollectionP", "_preprocessingPass"]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "count"]
+- ["s10CollectionP", "distance"]
+- ["s10CollectionP", "drop"]
+- ["s10CollectionP", "dropFirst"]
+- ["s10CollectionP", "dropLast"]
+- !private ["s10CollectionP", "elements"]
+- ["s10CollectionP", "endIndex"]
+- ["s10CollectionP", "filter"]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "formIndex"]
+- ["s10CollectionP", "index"]
+- ["s10CollectionP", "indices"]
+- ["s10CollectionP", "isEmpty"]
+- ["s10CollectionP", "last"]
+- ["s10CollectionP", "makeIterator"]
+- ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "nextToken"]
+- ["s10CollectionP", "prefix"]
+- !private ["s10CollectionP", "remove"]
+- !private ["s10CollectionP", "reversed"]
+- ["s10CollectionP", "split"]
+- ["s10CollectionP", "startIndex"]
+- ["s10CollectionP", "subscript"]
+- ["s10CollectionP", "suffix"]
+- !private ["s10CollectionP", "tokens"]
+- ["s10CollectionP", "underestimatedCount"]
+- !private ["s15ContiguousArrayV", "append"]
+- !private ["s15ContiguousArrayV", "endIndex"]
+- !private ["s15ContiguousArrayV", "indices"]
+- !private ["s15ContiguousArrayV", "remove"]
+- !private ["s15ContiguousArrayV", "startIndex"]
+- !private ["s15ContiguousArrayV", "subscript"]
+- !private ["s14CountableRangeV", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "endIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "indices"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "reversed"]
+- !private ["s28CustomDebugStringConvertibleP", "startIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "endIndex"]
+- !private ["s17CustomReflectableP", "indices"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "reversed"]
+- !private ["s17CustomReflectableP", "startIndex"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "indices"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "reversed"]
+- !private ["s23CustomStringConvertibleP", "startIndex"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "endIndex"]
+- !private ["s9EquatableP", "indices"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "reversed"]
+- !private ["s9EquatableP", "startIndex"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "endIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "indices"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "startIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["13ReactiveSwift3BagV8IteratorV", "ContiguousArray"]
+- ["13ReactiveSwift3BagV8IteratorV", "Element"]
+- ["13ReactiveSwift3BagV8IteratorV", "Int"]
+- ["13ReactiveSwift3BagV8IteratorV", "_Default_Element"]
+- !private ["13ReactiveSwift3BagV8IteratorV", "base"]
+- ["13ReactiveSwift3BagV8IteratorV", "deinit"]
+- !private ["13ReactiveSwift3BagV8IteratorV", "endIndex"]
+- !private ["13ReactiveSwift3BagV8IteratorV", "init"]
+- ["13ReactiveSwift3BagV8IteratorV", "next"]
+- !private ["13ReactiveSwift3BagV8IteratorV", "nextIndex"]
+- ["s16IteratorProtocolP", "Element"]
+- ["s16IteratorProtocolP", ""]
+- ["s16IteratorProtocolP", "_Default_Element"]
+- !private ["s16IteratorProtocolP", "base"]
+- !private ["s16IteratorProtocolP", "endIndex"]
+- !private ["s16IteratorProtocolP", "init"]
+- ["s16IteratorProtocolP", "next"]
+- !private ["s16IteratorProtocolP", "nextIndex"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "endIndex"]
+- !private ["s17MutableCollectionP", "indices"]
+- !private ["s17MutableCollectionP", "remove"]
+- !private ["s17MutableCollectionP", "startIndex"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["s22RandomAccessCollectionP", "Element"]
+- ["s22RandomAccessCollectionP", "Index"]
+- ["s22RandomAccessCollectionP", "Indices"]
+- ["s22RandomAccessCollectionP", "Iterator"]
+- ["s22RandomAccessCollectionP", "SubSequence"]
+- ["s22RandomAccessCollectionP", "Token"]
+- ["s22RandomAccessCollectionP", ""]
+- ["s22RandomAccessCollectionP", "_Default_Element"]
+- ["s22RandomAccessCollectionP", "_Default_Index"]
+- ["s22RandomAccessCollectionP", "_Default_Indices"]
+- ["s22RandomAccessCollectionP", "_Default_SubSequence"]
+- ["s22RandomAccessCollectionP", "_copyContents"]
+- ["s22RandomAccessCollectionP", "_copyToContiguousArray"]
+- ["s22RandomAccessCollectionP", "_customContainsEquatableElement"]
+- ["s22RandomAccessCollectionP", "_customIndexOfEquatableElement"]
+- ["s22RandomAccessCollectionP", "_failEarlyRangeCheck"]
+- ["s22RandomAccessCollectionP", "_preprocessingPass"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "distance"]
+- ["s22RandomAccessCollectionP", "drop"]
+- ["s22RandomAccessCollectionP", "dropFirst"]
+- ["s22RandomAccessCollectionP", "dropLast"]
+- !private ["s22RandomAccessCollectionP", "elements"]
+- ["s22RandomAccessCollectionP", "endIndex"]
+- ["s22RandomAccessCollectionP", "filter"]
+- ["s22RandomAccessCollectionP", "first"]
+- ["s22RandomAccessCollectionP", "forEach"]
+- ["s22RandomAccessCollectionP", "formIndex"]
+- ["s22RandomAccessCollectionP", "index"]
+- ["s22RandomAccessCollectionP", "indices"]
+- ["s22RandomAccessCollectionP", "isEmpty"]
+- ["s22RandomAccessCollectionP", "last"]
+- ["s22RandomAccessCollectionP", "makeIterator"]
+- ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "nextToken"]
+- ["s22RandomAccessCollectionP", "prefix"]
+- !private ["s22RandomAccessCollectionP", "remove"]
+- !private ["s22RandomAccessCollectionP", "reversed"]
+- ["s22RandomAccessCollectionP", "split"]
+- ["s22RandomAccessCollectionP", "startIndex"]
+- ["s22RandomAccessCollectionP", "subscript"]
+- ["s22RandomAccessCollectionP", "suffix"]
+- !private ["s22RandomAccessCollectionP", "tokens"]
+- ["s22RandomAccessCollectionP", "underestimatedCount"]
+- !private ["s15RangeExpressionP", "reversed"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "endIndex"]
+- !private ["s26RangeReplaceableCollectionP", "indices"]
+- !private ["s26RangeReplaceableCollectionP", "remove"]
+- !private ["s26RangeReplaceableCollectionP", "startIndex"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Index"]
+- ["s8SequenceP", "Indices"]
+- ["s8SequenceP", "Iterator"]
+- ["s8SequenceP", "SubSequence"]
+- ["s8SequenceP", "Token"]
+- ["s8SequenceP", ""]
+- ["s8SequenceP", "_Default_Element"]
+- ["s8SequenceP", "_Default_Index"]
+- ["s8SequenceP", "_Default_Indices"]
+- ["s8SequenceP", "_Default_SubSequence"]
+- ["s8SequenceP", "_copyContents"]
+- ["s8SequenceP", "_copyToContiguousArray"]
+- ["s8SequenceP", "_customContainsEquatableElement"]
+- ["s8SequenceP", "_customIndexOfEquatableElement"]
+- ["s8SequenceP", "_failEarlyRangeCheck"]
+- ["s8SequenceP", "_preprocessingPass"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "count"]
+- ["s8SequenceP", "distance"]
+- ["s8SequenceP", "drop"]
+- ["s8SequenceP", "dropFirst"]
+- ["s8SequenceP", "dropLast"]
+- !private ["s8SequenceP", "elements"]
+- ["s8SequenceP", "endIndex"]
+- ["s8SequenceP", "filter"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "formIndex"]
+- ["s8SequenceP", "index"]
+- ["s8SequenceP", "indices"]
+- ["s8SequenceP", "isEmpty"]
+- ["s8SequenceP", "last"]
+- ["s8SequenceP", "makeIterator"]
+- ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "nextToken"]
+- ["s8SequenceP", "prefix"]
+- !private ["s8SequenceP", "remove"]
+- !private ["s8SequenceP", "reversed"]
+- ["s8SequenceP", "split"]
+- ["s8SequenceP", "startIndex"]
+- ["s8SequenceP", "subscript"]
+- ["s8SequenceP", "suffix"]
+- !private ["s8SequenceP", "tokens"]
+- ["s8SequenceP", "underestimatedCount"]
+- ["13ReactiveSwift3BagV5TokenV", "UInt64"]
+- ["13ReactiveSwift3BagV5TokenV", "init"]
+- !private ["13ReactiveSwift3BagV5TokenV", "value"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "endIndex"]
+- !private ["s14_ArrayProtocolP", "indices"]
+- !private ["s14_ArrayProtocolP", "remove"]
+- !private ["s14_ArrayProtocolP", "startIndex"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "endIndex"]
+- !private ["s24_DestructorSafeContainerP", "indices"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "startIndex"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "13ReactiveSwift3BagV"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "s10CollectionP"
+- !private "s15ContiguousArrayV"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- "13ReactiveSwift3BagV8IteratorV"
+- "s16IteratorProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- "s22RandomAccessCollectionP"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "13ReactiveSwift3BagV5TokenV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "cc7a47a38b283375be1ec8f4e29f53ec"

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap',
+    }]
+  }]
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "1de65a2804b2fbb40852084b93ac9444"
+build_time: [1529759112, 864977000]
+inputs:
+  "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Result/Result/Result.swift": [1529758933, 0]
+  "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Result/Result/ResultProtocol.swift": [1529758933, 0]

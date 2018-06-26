@@ -1,0 +1,477 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "text"]
+- ["13ReactiveSwift0A0V", "selectedScopeButtonIndex"]
+- ["13ReactiveSwift0A0V", "textValues"]
+- ["13ReactiveSwift0A0V", "continuousTextValues"]
+- ["13ReactiveSwift0A0V", "selectedScopeButtonIndices"]
+- ["13ReactiveSwift0A0V", "cancelButtonClicked"]
+- ["13ReactiveSwift0A0V", "searchButtonClicked"]
+- ["13ReactiveSwift0A0V", "bookmarkButtonClicked"]
+- ["13ReactiveSwift0A0V", "resultsListButtonClicked"]
+- ["13ReactiveSwift0A0V", "textDidBeginEditing"]
+- ["13ReactiveSwift0A0V", "textDidEndEditing"]
+- ["13ReactiveSwift0A0V", "showsCancelButton"]
+provides-dynamic-lookup:
+- "searchBar"
+- "searchBarBookmarkButtonClicked"
+- "searchBarCancelButtonClicked"
+- "searchBarResultsListButtonClicked"
+- "searchBarSearchButtonClicked"
+- "searchBarTextDidBeginEditing"
+- "searchBarTextDidEndEditing"
+depends-top-level:
+- !private "AssignmentPrecedence"
+- "BindingTarget"
+- "Bool"
+- !private "CastingPrecedence"
+- "DelegateProxy"
+- "Int"
+- "NoError"
+- "Reactive"
+- "SearchBarDelegateProxy"
+- "Signal"
+- "String"
+- "UISearchBar"
+- "UISearchBarDelegate"
+- "Void"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["13ReactiveSwift13BindingSourceP", "map"]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "selectedScopeButtonIndex"]
+- !private ["So15CALayerDelegateP", "showsCancelButton"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "forwardee"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intercept"]
+- ["s7CVarArgP", "position"]
+- ["s7CVarArgP", "positionForBar"]
+- !private ["s7CVarArgP", "proxy"]
+- ["s7CVarArgP", "searchBar"]
+- ["s7CVarArgP", "searchBarBookmarkButtonClicked"]
+- ["s7CVarArgP", "searchBarCancelButtonClicked"]
+- ["s7CVarArgP", "searchBarResultsListButtonClicked"]
+- ["s7CVarArgP", "searchBarSearchButtonClicked"]
+- ["s7CVarArgP", "searchBarShouldBeginEditing"]
+- ["s7CVarArgP", "searchBarShouldEndEditing"]
+- ["s7CVarArgP", "searchBarTextDidBeginEditing"]
+- ["s7CVarArgP", "searchBarTextDidEndEditing"]
+- !private ["s7CVarArgP", "selectedScopeButtonIndex"]
+- !private ["s7CVarArgP", "showsCancelButton"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "forwardee"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intercept"]
+- ["s28CustomDebugStringConvertibleP", "position"]
+- ["s28CustomDebugStringConvertibleP", "positionForBar"]
+- !private ["s28CustomDebugStringConvertibleP", "proxy"]
+- ["s28CustomDebugStringConvertibleP", "searchBar"]
+- ["s28CustomDebugStringConvertibleP", "searchBarBookmarkButtonClicked"]
+- ["s28CustomDebugStringConvertibleP", "searchBarCancelButtonClicked"]
+- ["s28CustomDebugStringConvertibleP", "searchBarResultsListButtonClicked"]
+- ["s28CustomDebugStringConvertibleP", "searchBarSearchButtonClicked"]
+- ["s28CustomDebugStringConvertibleP", "searchBarShouldBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "searchBarShouldEndEditing"]
+- ["s28CustomDebugStringConvertibleP", "searchBarTextDidBeginEditing"]
+- ["s28CustomDebugStringConvertibleP", "searchBarTextDidEndEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedScopeButtonIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "showsCancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "forwardee"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intercept"]
+- ["s23CustomStringConvertibleP", "position"]
+- ["s23CustomStringConvertibleP", "positionForBar"]
+- !private ["s23CustomStringConvertibleP", "proxy"]
+- ["s23CustomStringConvertibleP", "searchBar"]
+- ["s23CustomStringConvertibleP", "searchBarBookmarkButtonClicked"]
+- ["s23CustomStringConvertibleP", "searchBarCancelButtonClicked"]
+- ["s23CustomStringConvertibleP", "searchBarResultsListButtonClicked"]
+- ["s23CustomStringConvertibleP", "searchBarSearchButtonClicked"]
+- ["s23CustomStringConvertibleP", "searchBarShouldBeginEditing"]
+- ["s23CustomStringConvertibleP", "searchBarShouldEndEditing"]
+- ["s23CustomStringConvertibleP", "searchBarTextDidBeginEditing"]
+- ["s23CustomStringConvertibleP", "searchBarTextDidEndEditing"]
+- !private ["s23CustomStringConvertibleP", "selectedScopeButtonIndex"]
+- !private ["s23CustomStringConvertibleP", "showsCancelButton"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "subscript"]
+- ["13ReactiveCocoa13DelegateProxyC", "Int"]
+- ["13ReactiveCocoa13DelegateProxyC", "String"]
+- ["13ReactiveCocoa13DelegateProxyC", "UISearchBar"]
+- !private ["13ReactiveCocoa13DelegateProxyC", ""]
+- !private ["13ReactiveCocoa13DelegateProxyC", "forwardee"]
+- ["13ReactiveCocoa13DelegateProxyC", "init"]
+- !private ["13ReactiveCocoa13DelegateProxyC", "intercept"]
+- ["13ReactiveCocoa13DelegateProxyC", "position"]
+- ["13ReactiveCocoa13DelegateProxyC", "positionForBar"]
+- !private ["13ReactiveCocoa13DelegateProxyC", "proxy"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBar"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarBookmarkButtonClicked"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarCancelButtonClicked"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarResultsListButtonClicked"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarSearchButtonClicked"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarShouldBeginEditing"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarShouldEndEditing"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarTextDidBeginEditing"]
+- ["13ReactiveCocoa13DelegateProxyC", "searchBarTextDidEndEditing"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "forwardee"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intercept"]
+- ["s9EquatableP", "position"]
+- ["s9EquatableP", "positionForBar"]
+- !private ["s9EquatableP", "proxy"]
+- ["s9EquatableP", "searchBar"]
+- ["s9EquatableP", "searchBarBookmarkButtonClicked"]
+- ["s9EquatableP", "searchBarCancelButtonClicked"]
+- ["s9EquatableP", "searchBarResultsListButtonClicked"]
+- ["s9EquatableP", "searchBarSearchButtonClicked"]
+- ["s9EquatableP", "searchBarShouldBeginEditing"]
+- ["s9EquatableP", "searchBarShouldEndEditing"]
+- ["s9EquatableP", "searchBarTextDidBeginEditing"]
+- ["s9EquatableP", "searchBarTextDidEndEditing"]
+- !private ["s9EquatableP", "selectedScopeButtonIndex"]
+- !private ["s9EquatableP", "showsCancelButton"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "forwardee"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "intercept"]
+- ["s8HashableP", "position"]
+- ["s8HashableP", "positionForBar"]
+- !private ["s8HashableP", "proxy"]
+- ["s8HashableP", "searchBar"]
+- ["s8HashableP", "searchBarBookmarkButtonClicked"]
+- ["s8HashableP", "searchBarCancelButtonClicked"]
+- ["s8HashableP", "searchBarResultsListButtonClicked"]
+- ["s8HashableP", "searchBarSearchButtonClicked"]
+- ["s8HashableP", "searchBarShouldBeginEditing"]
+- ["s8HashableP", "searchBarShouldEndEditing"]
+- ["s8HashableP", "searchBarTextDidBeginEditing"]
+- ["s8HashableP", "searchBarTextDidEndEditing"]
+- !private ["s8HashableP", "selectedScopeButtonIndex"]
+- !private ["s8HashableP", "showsCancelButton"]
+- !private ["s8HashableP", "text"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "selectedScopeButtonIndex"]
+- !private ["So8NSCodingP", "showsCancelButton"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UISearchBar"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "forwardee"]
+- !private ["So8NSObjectC", "intercept"]
+- ["So8NSObjectC", "position"]
+- ["So8NSObjectC", "positionForBar"]
+- !private ["So8NSObjectC", "proxy"]
+- ["So8NSObjectC", "searchBar"]
+- ["So8NSObjectC", "searchBarBookmarkButtonClicked"]
+- ["So8NSObjectC", "searchBarCancelButtonClicked"]
+- ["So8NSObjectC", "searchBarResultsListButtonClicked"]
+- ["So8NSObjectC", "searchBarSearchButtonClicked"]
+- ["So8NSObjectC", "searchBarShouldBeginEditing"]
+- ["So8NSObjectC", "searchBarShouldEndEditing"]
+- ["So8NSObjectC", "searchBarTextDidBeginEditing"]
+- ["So8NSObjectC", "searchBarTextDidEndEditing"]
+- !private ["So8NSObjectC", "selectedScopeButtonIndex"]
+- !private ["So8NSObjectC", "showsCancelButton"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "forwardee"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "intercept"]
+- ["So16NSObjectProtocolP", "position"]
+- ["So16NSObjectProtocolP", "positionForBar"]
+- !private ["So16NSObjectProtocolP", "proxy"]
+- ["So16NSObjectProtocolP", "searchBar"]
+- ["So16NSObjectProtocolP", "searchBarBookmarkButtonClicked"]
+- ["So16NSObjectProtocolP", "searchBarCancelButtonClicked"]
+- ["So16NSObjectProtocolP", "searchBarResultsListButtonClicked"]
+- ["So16NSObjectProtocolP", "searchBarSearchButtonClicked"]
+- ["So16NSObjectProtocolP", "searchBarShouldBeginEditing"]
+- ["So16NSObjectProtocolP", "searchBarShouldEndEditing"]
+- ["So16NSObjectProtocolP", "searchBarTextDidBeginEditing"]
+- ["So16NSObjectProtocolP", "searchBarTextDidEndEditing"]
+- !private ["So16NSObjectProtocolP", "selectedScopeButtonIndex"]
+- !private ["So16NSObjectProtocolP", "showsCancelButton"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["13ReactiveSwift0A0V", "BindingTarget"]
+- ["13ReactiveSwift0A0V", "Bool"]
+- ["13ReactiveSwift0A0V", "Int"]
+- ["13ReactiveSwift0A0V", "NoError"]
+- ["13ReactiveSwift0A0V", "SearchBarDelegateProxy"]
+- ["13ReactiveSwift0A0V", "Signal"]
+- ["13ReactiveSwift0A0V", "String"]
+- ["13ReactiveSwift0A0V", "UISearchBar"]
+- !private ["13ReactiveSwift0A0V", "UISearchBarDelegate"]
+- ["13ReactiveSwift0A0V", "Void"]
+- !private ["13ReactiveSwift0A0V", "base"]
+- ["13ReactiveSwift0A0V", "bookmarkButtonClicked"]
+- ["13ReactiveSwift0A0V", "cancelButtonClicked"]
+- ["13ReactiveSwift0A0V", "continuousTextValues"]
+- !private ["13ReactiveSwift0A0V", "makeBindingTarget"]
+- !private ["13ReactiveSwift0A0V", "proxy"]
+- ["13ReactiveSwift0A0V", "resultsListButtonClicked"]
+- ["13ReactiveSwift0A0V", "searchButtonClicked"]
+- ["13ReactiveSwift0A0V", "selectedScopeButtonIndex"]
+- ["13ReactiveSwift0A0V", "selectedScopeButtonIndices"]
+- ["13ReactiveSwift0A0V", "showsCancelButton"]
+- ["13ReactiveSwift0A0V", "text"]
+- ["13ReactiveSwift0A0V", "textDidBeginEditing"]
+- ["13ReactiveSwift0A0V", "textDidEndEditing"]
+- ["13ReactiveSwift0A0V", "textValues"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", ""]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "delegate"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "forwardee"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "init"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "intercept"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "position"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "positionForBar"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "proxy"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBar"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarBookmarkButtonClicked"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarCancelButtonClicked"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarResultsListButtonClicked"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarSearchButtonClicked"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarShouldBeginEditing"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarShouldEndEditing"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarTextDidBeginEditing"]
+- ["13ReactiveSwift0A18ExtensionsProviderP", "searchBarTextDidEndEditing"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "selectedScopeButtonIndex"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "showsCancelButton"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "text"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13ReactiveSwift6SignalC", "map"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "map"]
+- !private ["13ReactiveSwift14SignalProtocolP", "map"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "selectedScopeButtonIndex"]
+- !private ["So29UIAccessibilityIdentificationP", "showsCancelButton"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "selectedScopeButtonIndex"]
+- !private ["So12UIAppearanceP", "showsCancelButton"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "selectedScopeButtonIndex"]
+- !private ["So21UIAppearanceContainerP", "showsCancelButton"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So16UIBarPositioningP", "delegate"]
+- !private ["So16UIBarPositioningP", "selectedScopeButtonIndex"]
+- !private ["So16UIBarPositioningP", "showsCancelButton"]
+- !private ["So16UIBarPositioningP", "text"]
+- !private ["So24UIBarPositioningDelegateP", ""]
+- !private ["So24UIBarPositioningDelegateP", "forwardee"]
+- !private ["So24UIBarPositioningDelegateP", "intercept"]
+- ["So24UIBarPositioningDelegateP", "position"]
+- ["So24UIBarPositioningDelegateP", "positionForBar"]
+- !private ["So24UIBarPositioningDelegateP", "proxy"]
+- ["So24UIBarPositioningDelegateP", "searchBar"]
+- ["So24UIBarPositioningDelegateP", "searchBarBookmarkButtonClicked"]
+- ["So24UIBarPositioningDelegateP", "searchBarCancelButtonClicked"]
+- ["So24UIBarPositioningDelegateP", "searchBarResultsListButtonClicked"]
+- ["So24UIBarPositioningDelegateP", "searchBarSearchButtonClicked"]
+- ["So24UIBarPositioningDelegateP", "searchBarShouldBeginEditing"]
+- ["So24UIBarPositioningDelegateP", "searchBarShouldEndEditing"]
+- ["So24UIBarPositioningDelegateP", "searchBarTextDidBeginEditing"]
+- ["So24UIBarPositioningDelegateP", "searchBarTextDidEndEditing"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "selectedScopeButtonIndex"]
+- !private ["So17UICoordinateSpaceP", "showsCancelButton"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "selectedScopeButtonIndex"]
+- !private ["So13UIDynamicItemP", "showsCancelButton"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "selectedScopeButtonIndex"]
+- !private ["So18UIFocusEnvironmentP", "showsCancelButton"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "selectedScopeButtonIndex"]
+- !private ["So11UIFocusItemP", "showsCancelButton"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedScopeButtonIndex"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsCancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "selectedScopeButtonIndex"]
+- !private ["So11UIResponderC", "showsCancelButton"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedScopeButtonIndex"]
+- !private ["So30UIResponderStandardEditActionsP", "showsCancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So11UISearchBarC", "delegate"]
+- !private ["So11UISearchBarC", "selectedScopeButtonIndex"]
+- !private ["So11UISearchBarC", "showsCancelButton"]
+- !private ["So11UISearchBarC", "text"]
+- !private ["So19UISearchBarDelegateP", ""]
+- !private ["So19UISearchBarDelegateP", "forwardee"]
+- !private ["So19UISearchBarDelegateP", "intercept"]
+- ["So19UISearchBarDelegateP", "position"]
+- ["So19UISearchBarDelegateP", "positionForBar"]
+- !private ["So19UISearchBarDelegateP", "proxy"]
+- ["So19UISearchBarDelegateP", "searchBar"]
+- ["So19UISearchBarDelegateP", "searchBarBookmarkButtonClicked"]
+- ["So19UISearchBarDelegateP", "searchBarCancelButtonClicked"]
+- ["So19UISearchBarDelegateP", "searchBarResultsListButtonClicked"]
+- ["So19UISearchBarDelegateP", "searchBarSearchButtonClicked"]
+- ["So19UISearchBarDelegateP", "searchBarShouldBeginEditing"]
+- ["So19UISearchBarDelegateP", "searchBarShouldEndEditing"]
+- ["So19UISearchBarDelegateP", "searchBarTextDidBeginEditing"]
+- ["So19UISearchBarDelegateP", "searchBarTextDidEndEditing"]
+- !private ["So17UITextInputTraitsP", "delegate"]
+- !private ["So17UITextInputTraitsP", "selectedScopeButtonIndex"]
+- !private ["So17UITextInputTraitsP", "showsCancelButton"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "selectedScopeButtonIndex"]
+- !private ["So18UITraitEnvironmentP", "showsCancelButton"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "selectedScopeButtonIndex"]
+- !private ["So6UIViewC", "showsCancelButton"]
+- !private ["So6UIViewC", "text"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "selectedScopeButtonIndex"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsCancelButton"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "forwardee"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intercept"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "position"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "positionForBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "proxy"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBar"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarBookmarkButtonClicked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarCancelButtonClicked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarResultsListButtonClicked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarSearchButtonClicked"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarShouldBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarShouldEndEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarTextDidBeginEditing"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "searchBarTextDidEndEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedScopeButtonIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsCancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "13ReactiveSwift13BindingSourceP"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "13ReactiveCocoa13DelegateProxyC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s8HashableP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "13ReactiveSwift0A0V"
+- "13ReactiveSwift0A18ExtensionsProviderP"
+- !private "s8SequenceP"
+- !private "13ReactiveSwift6SignalC"
+- !private "13ReactiveSwift25SignalProducerConvertibleP"
+- !private "13ReactiveSwift14SignalProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- "So24UIBarPositioningDelegateP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So11UISearchBarC"
+- "So19UISearchBarDelegateP"
+- !private "So17UITextInputTraitsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "s14_ArrayProtocolP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0bb0fe91e6e32a9f98a9d9cf3d7494ea"

@@ -1,0 +1,294 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyboardEvent"
+- "KeyboardChangeContext"
+provides-nominal:
+- "13ReactiveCocoa13KeyboardEventO"
+- "13ReactiveCocoa21KeyboardChangeContextV"
+provides-member:
+- ["13ReactiveCocoa13KeyboardEventO", ""]
+- ["13ReactiveCocoa21KeyboardChangeContextV", ""]
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "keyboard"]
+- ["13ReactiveSwift0A0V", "keyboard"]
+- ["13ReactiveSwift0A0V", "keyboardChange"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- "AnyHashable"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "CGRect"
+- "CastingPrecedence"
+- "Double"
+- "KeyboardChangeContext"
+- "KeyboardEvent"
+- !private "NSNumber"
+- "NoError"
+- "Notification"
+- "NotificationCenter"
+- "Reactive"
+- "Signal"
+- !private "UIKeyboardAnimationCurveUserInfoKey"
+- !private "UIKeyboardAnimationDurationUserInfoKey"
+- !private "UIKeyboardFrameBeginUserInfoKey"
+- !private "UIKeyboardFrameEndUserInfoKey"
+- !private "UIKeyboardIsLocalUserInfoKey"
+- "UIViewAnimationCurve"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["13ReactiveSwift13BindingSourceP", "map"]
+- !private ["13ReactiveSwift13BindingSourceP", "merge"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- ["s17CustomReflectableP", "Name"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "userInfo"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "UIKeyboardDidChangeFrame"]
+- !private ["s9EquatableP", "UIKeyboardDidHide"]
+- !private ["s9EquatableP", "UIKeyboardDidShow"]
+- !private ["s9EquatableP", "UIKeyboardWillChangeFrame"]
+- !private ["s9EquatableP", "UIKeyboardWillHide"]
+- !private ["s9EquatableP", "UIKeyboardWillShow"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "didChangeFrame"]
+- ["s9EquatableP", "didHide"]
+- ["s9EquatableP", "didShow"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "notificationName"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "userInfo"]
+- ["s9EquatableP", "willChangeFrame"]
+- ["s9EquatableP", "willHide"]
+- ["s9EquatableP", "willShow"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- ["s8HashableP", "Name"]
+- !private ["s8HashableP", "UIKeyboardDidChangeFrame"]
+- !private ["s8HashableP", "UIKeyboardDidHide"]
+- !private ["s8HashableP", "UIKeyboardDidShow"]
+- !private ["s8HashableP", "UIKeyboardWillChangeFrame"]
+- !private ["s8HashableP", "UIKeyboardWillHide"]
+- !private ["s8HashableP", "UIKeyboardWillShow"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "didChangeFrame"]
+- ["s8HashableP", "didHide"]
+- ["s8HashableP", "didShow"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "notificationName"]
+- !private ["s8HashableP", "userInfo"]
+- ["s8HashableP", "willChangeFrame"]
+- ["s8HashableP", "willHide"]
+- ["s8HashableP", "willShow"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "AnyHashable"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "Bool"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "CGRect"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "Double"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "KeyboardEvent"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "NSNumber"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "UIKeyboardAnimationCurveUserInfoKey"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "UIKeyboardAnimationDurationUserInfoKey"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "UIKeyboardFrameBeginUserInfoKey"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "UIKeyboardFrameEndUserInfoKey"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "UIKeyboardIsLocalUserInfoKey"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "UIViewAnimationCurve"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "animationCurve"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "animationDuration"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "base"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "beginFrame"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "endFrame"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "event"]
+- !private ["13ReactiveCocoa21KeyboardChangeContextV", "init"]
+- ["13ReactiveCocoa21KeyboardChangeContextV", "isLocal"]
+- ["13ReactiveCocoa13KeyboardEventO", "Notification"]
+- ["13ReactiveCocoa13KeyboardEventO", "__derived_enum_equals"]
+- ["13ReactiveCocoa13KeyboardEventO", "deinit"]
+- ["13ReactiveCocoa13KeyboardEventO", "didChangeFrame"]
+- ["13ReactiveCocoa13KeyboardEventO", "didHide"]
+- ["13ReactiveCocoa13KeyboardEventO", "didShow"]
+- ["13ReactiveCocoa13KeyboardEventO", "hashValue"]
+- !private ["13ReactiveCocoa13KeyboardEventO", "notificationName"]
+- ["13ReactiveCocoa13KeyboardEventO", "willChangeFrame"]
+- ["13ReactiveCocoa13KeyboardEventO", "willHide"]
+- ["13ReactiveCocoa13KeyboardEventO", "willShow"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSObjectC", "intValue"]
+- !private ["So16NSObjectProtocolP", "intValue"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardDidChangeFrame"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardDidHide"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardDidShow"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillChangeFrame"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillHide"]
+- !private ["So14NSNotificationC4NameV", "UIKeyboardWillShow"]
+- ["10Foundation12NotificationV", "Name"]
+- !private ["10Foundation12NotificationV", "userInfo"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s16RawRepresentableP", "UIKeyboardDidChangeFrame"]
+- !private ["s16RawRepresentableP", "UIKeyboardDidHide"]
+- !private ["s16RawRepresentableP", "UIKeyboardDidShow"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillChangeFrame"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillHide"]
+- !private ["s16RawRepresentableP", "UIKeyboardWillShow"]
+- !private ["s16RawRepresentableP", "init"]
+- ["13ReactiveSwift0A0V", "KeyboardChangeContext"]
+- ["13ReactiveSwift0A0V", "KeyboardEvent"]
+- ["13ReactiveSwift0A0V", "NoError"]
+- ["13ReactiveSwift0A0V", "NotificationCenter"]
+- ["13ReactiveSwift0A0V", "Signal"]
+- ["13ReactiveSwift0A0V", "keyboard"]
+- ["13ReactiveSwift0A0V", "keyboardChange"]
+- !private ["13ReactiveSwift0A0V", "notifications"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "intValue"]
+- ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["10Foundation20ReferenceConvertibleP", "userInfo"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13ReactiveSwift6SignalC", "map"]
+- !private ["13ReactiveSwift6SignalC", "merge"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "map"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "merge"]
+- !private ["13ReactiveSwift14SignalProtocolP", "map"]
+- !private ["13ReactiveSwift14SignalProtocolP", "merge"]
+- !private ["SC20UIViewAnimationCurveO", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- ["s21_ObjectiveCBridgeableP", "Name"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardDidChangeFrame"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardDidHide"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardDidShow"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillChangeFrame"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillHide"]
+- !private ["s21_ObjectiveCBridgeableP", "UIKeyboardWillShow"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "userInfo"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardDidChangeFrame"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardDidHide"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardDidShow"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillChangeFrame"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillHide"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIKeyboardWillShow"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "13ReactiveSwift13BindingSourceP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s8HashableP"
+- "13ReactiveCocoa21KeyboardChangeContextV"
+- "13ReactiveCocoa13KeyboardEventO"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- !private "So14NSNotificationC4NameV"
+- "10Foundation12NotificationV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "13ReactiveSwift0A0V"
+- !private "13ReactiveSwift0A18ExtensionsProviderP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "13ReactiveSwift6SignalC"
+- !private "13ReactiveSwift25SignalProducerConvertibleP"
+- !private "13ReactiveSwift14SignalProtocolP"
+- !private "SC20UIViewAnimationCurveO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6d48607504ed6279b0a1f54cea19de3e"

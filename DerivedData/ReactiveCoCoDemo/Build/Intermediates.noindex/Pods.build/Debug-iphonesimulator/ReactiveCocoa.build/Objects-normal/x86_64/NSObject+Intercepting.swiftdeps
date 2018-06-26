@@ -1,0 +1,847 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "noImplementation"
+provides-nominal:
+provides-member:
+- ["13ReactiveSwift0A0V", ""]
+- ["13ReactiveSwift0A0V", "trigger"]
+- ["13ReactiveSwift0A0V", "signal"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "-"
+- !private "..<"
+- !private "<"
+- !private "=="
+- !private ">"
+- !private "??"
+- "AnyClass"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "AssociationKey"
+- !private "Associations"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CBool"
+- "CChar"
+- !private "CDouble"
+- !private "CFloat"
+- !private "CInt"
+- !private "CLong"
+- !private "CLongLong"
+- !private "CShort"
+- !private "CUnsignedChar"
+- !private "CUnsignedInt"
+- !private "CUnsignedLong"
+- !private "CUnsignedLongLong"
+- !private "CUnsignedShort"
+- "CastingPrecedence"
+- "IMP"
+- "Int"
+- !private "Int8"
+- !private "InterceptingState"
+- "Lifetime"
+- !private "MemoryLayout"
+- !private "NSGetSizeAndAlignment"
+- !private "NSMethodSignature"
+- !private "NSNumber"
+- "NSObject"
+- !private "NSValue"
+- "NoError"
+- !private "ObjCMethodEncoding"
+- !private "ObjCSelector"
+- !private "ObjCTypeEncoding"
+- "Reactive"
+- !private "ReactiveCocoa"
+- "Selector"
+- "SelectorCache"
+- "Signal"
+- "SignatureCache"
+- !private "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- !private "Void"
+- !private "_rac_objc_msgForward"
+- !private "assert"
+- !private "checkTypeEncoding"
+- !private "class_addMethod"
+- !private "class_getImmediateMethod"
+- !private "class_getInstanceMethod"
+- !private "class_getMethodImplementation"
+- !private "class_getSuperclass"
+- !private "class_replaceMethod"
+- !private "class_respondsToSelector"
+- !private "enableMessageForwarding"
+- !private "fatalError"
+- !private "imp_implementationWithBlock"
+- !private "interceptedKey"
+- !private "method_getImplementation"
+- !private "method_getTypeEncoding"
+- "noImplementation"
+- !private "object_getClass"
+- !private "precondition"
+- !private "selectorCacheKey"
+- !private "setupMethodSignatureCaching"
+- !private "signatureCacheKey"
+- !private "swizzleClass"
+- !private "synchronized"
+- !private "unpackInvocation"
+- "unsafeBitCast"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reserveCapacity"]
+- ["13ReactiveCocoa14AssociationKeyV", "init"]
+- !private ["13ReactiveCocoa12AssociationsV", "init"]
+- !private ["13ReactiveCocoa12AssociationsV", "setValue"]
+- !private ["13ReactiveCocoa12AssociationsV", "value"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "reserveCapacity"]
+- ["s13BinaryIntegerP", "init"]
+- !private ["13ReactiveSwift13BindingSourceP", "map"]
+- !private ["13ReactiveSwift13BindingSourceP", "observeCompleted"]
+- ["13ReactiveSwift13BindingSourceP", "pipe"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "AssociationKey"]
+- !private ["s7CVarArgP", "Associations"]
+- !private ["s7CVarArgP", "InterceptingState"]
+- !private ["s7CVarArgP", "NSMethodSignature"]
+- !private ["s7CVarArgP", "ReactiveCocoa"]
+- !private ["s7CVarArgP", "SelectorCache"]
+- !private ["s7CVarArgP", "SignatureCache"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_rac_objc_msgForward"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "assert"]
+- !private ["s7CVarArgP", "associations"]
+- !private ["s7CVarArgP", "checkTypeEncoding"]
+- !private ["s7CVarArgP", "class_addMethod"]
+- !private ["s7CVarArgP", "class_getImmediateMethod"]
+- !private ["s7CVarArgP", "class_getInstanceMethod"]
+- !private ["s7CVarArgP", "class_replaceMethod"]
+- !private ["s7CVarArgP", "class_respondsToSelector"]
+- !private ["s7CVarArgP", "enableMessageForwarding"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intercept"]
+- !private ["s7CVarArgP", "interceptedKey"]
+- !private ["s7CVarArgP", "method_getImplementation"]
+- !private ["s7CVarArgP", "method_getTypeEncoding"]
+- !private ["s7CVarArgP", "objcClass"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "precondition"]
+- !private ["s7CVarArgP", "reactive"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "selectorCacheKey"]
+- !private ["s7CVarArgP", "setupMethodSignatureCaching"]
+- !private ["s7CVarArgP", "signatureCacheKey"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "swizzleClass"]
+- !private ["s7CVarArgP", "synchronized"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "reserveCapacity"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "deallocate"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s14CountableRangeV", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "AssociationKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Associations"]
+- !private ["s28CustomDebugStringConvertibleP", "InterceptingState"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMethodSignature"]
+- !private ["s28CustomDebugStringConvertibleP", "ReactiveCocoa"]
+- !private ["s28CustomDebugStringConvertibleP", "SelectorCache"]
+- !private ["s28CustomDebugStringConvertibleP", "SignatureCache"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "_rac_objc_msgForward"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "assert"]
+- !private ["s28CustomDebugStringConvertibleP", "associations"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "checkTypeEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "class_addMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "class_getImmediateMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "class_getInstanceMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "class_replaceMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "class_respondsToSelector"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "enableMessageForwarding"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intercept"]
+- !private ["s28CustomDebugStringConvertibleP", "interceptedKey"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "method_getImplementation"]
+- !private ["s28CustomDebugStringConvertibleP", "method_getTypeEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "objcClass"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- !private ["s28CustomDebugStringConvertibleP", "reactive"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "selectorCacheKey"]
+- !private ["s28CustomDebugStringConvertibleP", "setupMethodSignatureCaching"]
+- !private ["s28CustomDebugStringConvertibleP", "signatureCacheKey"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "swizzleClass"]
+- !private ["s28CustomDebugStringConvertibleP", "synchronized"]
+- !private ["s28CustomDebugStringConvertibleP", "undefined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "alias"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "interopAlias"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "undefined"]
+- !private ["s23CustomStringConvertibleP", "AssociationKey"]
+- !private ["s23CustomStringConvertibleP", "Associations"]
+- !private ["s23CustomStringConvertibleP", "InterceptingState"]
+- !private ["s23CustomStringConvertibleP", "NSMethodSignature"]
+- !private ["s23CustomStringConvertibleP", "ReactiveCocoa"]
+- !private ["s23CustomStringConvertibleP", "SelectorCache"]
+- !private ["s23CustomStringConvertibleP", "SignatureCache"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_rac_objc_msgForward"]
+- !private ["s23CustomStringConvertibleP", "alias"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "ascii"]
+- !private ["s23CustomStringConvertibleP", "assert"]
+- !private ["s23CustomStringConvertibleP", "associations"]
+- !private ["s23CustomStringConvertibleP", "checkTypeEncoding"]
+- !private ["s23CustomStringConvertibleP", "class_addMethod"]
+- !private ["s23CustomStringConvertibleP", "class_getImmediateMethod"]
+- !private ["s23CustomStringConvertibleP", "class_getInstanceMethod"]
+- !private ["s23CustomStringConvertibleP", "class_replaceMethod"]
+- !private ["s23CustomStringConvertibleP", "class_respondsToSelector"]
+- !private ["s23CustomStringConvertibleP", "enableMessageForwarding"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intercept"]
+- !private ["s23CustomStringConvertibleP", "interceptedKey"]
+- !private ["s23CustomStringConvertibleP", "interopAlias"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "method_getImplementation"]
+- !private ["s23CustomStringConvertibleP", "method_getTypeEncoding"]
+- !private ["s23CustomStringConvertibleP", "objcClass"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- !private ["s23CustomStringConvertibleP", "reactive"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "selectorCacheKey"]
+- !private ["s23CustomStringConvertibleP", "setupMethodSignatureCaching"]
+- !private ["s23CustomStringConvertibleP", "signatureCacheKey"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "swizzleClass"]
+- !private ["s23CustomStringConvertibleP", "synchronized"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "flatMap"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "reserveCapacity"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "undefined"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "flatMap"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "reserveCapacity"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "undefined"]
+- !private ["SS10FoundationE8EncodingV", "ascii"]
+- !private ["s9EquatableP", "AssociationKey"]
+- !private ["s9EquatableP", "Associations"]
+- !private ["s9EquatableP", "InterceptingState"]
+- !private ["s9EquatableP", "NSMethodSignature"]
+- !private ["s9EquatableP", "ReactiveCocoa"]
+- !private ["s9EquatableP", "SelectorCache"]
+- !private ["s9EquatableP", "SignatureCache"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_rac_objc_msgForward"]
+- !private ["s9EquatableP", "alias"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "ascii"]
+- !private ["s9EquatableP", "assert"]
+- !private ["s9EquatableP", "associations"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- ["s9EquatableP", "bool"]
+- ["s9EquatableP", "char"]
+- !private ["s9EquatableP", "checkTypeEncoding"]
+- !private ["s9EquatableP", "class_addMethod"]
+- !private ["s9EquatableP", "class_getImmediateMethod"]
+- !private ["s9EquatableP", "class_getInstanceMethod"]
+- !private ["s9EquatableP", "class_replaceMethod"]
+- !private ["s9EquatableP", "class_respondsToSelector"]
+- !private ["s9EquatableP", "deallocate"]
+- ["s9EquatableP", "double"]
+- !private ["s9EquatableP", "enableMessageForwarding"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "flatMap"]
+- ["s9EquatableP", "float"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "intercept"]
+- !private ["s9EquatableP", "interceptedKey"]
+- !private ["s9EquatableP", "interopAlias"]
+- ["s9EquatableP", "long"]
+- ["s9EquatableP", "longLong"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "method_getImplementation"]
+- !private ["s9EquatableP", "method_getTypeEncoding"]
+- !private ["s9EquatableP", "objcClass"]
+- ["s9EquatableP", "object"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "precondition"]
+- !private ["s9EquatableP", "reactive"]
+- !private ["s9EquatableP", "reserveCapacity"]
+- ["s9EquatableP", "selector"]
+- !private ["s9EquatableP", "selectorCacheKey"]
+- !private ["s9EquatableP", "setupMethodSignatureCaching"]
+- ["s9EquatableP", "short"]
+- !private ["s9EquatableP", "signatureCacheKey"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "swizzleClass"]
+- !private ["s9EquatableP", "synchronized"]
+- ["s9EquatableP", "type"]
+- ["s9EquatableP", "undefined"]
+- ["s9EquatableP", "unsignedChar"]
+- ["s9EquatableP", "unsignedInt"]
+- ["s9EquatableP", "unsignedLong"]
+- ["s9EquatableP", "unsignedLongLong"]
+- ["s9EquatableP", "unsignedShort"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "alias"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "interopAlias"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["s23ExpressibleByNilLiteralP", "undefined"]
+- !private ["s26ExpressibleByStringLiteralP", "alias"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "interopAlias"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "alias"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "interopAlias"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "AssociationKey"]
+- !private ["s8HashableP", "Associations"]
+- !private ["s8HashableP", "InterceptingState"]
+- !private ["s8HashableP", "NSMethodSignature"]
+- !private ["s8HashableP", "ReactiveCocoa"]
+- !private ["s8HashableP", "SelectorCache"]
+- !private ["s8HashableP", "SignatureCache"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_rac_objc_msgForward"]
+- !private ["s8HashableP", "alias"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "ascii"]
+- !private ["s8HashableP", "assert"]
+- !private ["s8HashableP", "associations"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- ["s8HashableP", "bool"]
+- ["s8HashableP", "char"]
+- !private ["s8HashableP", "checkTypeEncoding"]
+- !private ["s8HashableP", "class_addMethod"]
+- !private ["s8HashableP", "class_getImmediateMethod"]
+- !private ["s8HashableP", "class_getInstanceMethod"]
+- !private ["s8HashableP", "class_replaceMethod"]
+- !private ["s8HashableP", "class_respondsToSelector"]
+- !private ["s8HashableP", "deallocate"]
+- ["s8HashableP", "double"]
+- !private ["s8HashableP", "enableMessageForwarding"]
+- !private ["s8HashableP", "fatalError"]
+- ["s8HashableP", "float"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "int"]
+- !private ["s8HashableP", "intercept"]
+- !private ["s8HashableP", "interceptedKey"]
+- !private ["s8HashableP", "interopAlias"]
+- ["s8HashableP", "long"]
+- ["s8HashableP", "longLong"]
+- !private ["s8HashableP", "method_getImplementation"]
+- !private ["s8HashableP", "method_getTypeEncoding"]
+- !private ["s8HashableP", "objcClass"]
+- ["s8HashableP", "object"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "precondition"]
+- !private ["s8HashableP", "reactive"]
+- ["s8HashableP", "selector"]
+- !private ["s8HashableP", "selectorCacheKey"]
+- !private ["s8HashableP", "setupMethodSignatureCaching"]
+- ["s8HashableP", "short"]
+- !private ["s8HashableP", "signatureCacheKey"]
+- !private ["s8HashableP", "swizzleClass"]
+- !private ["s8HashableP", "synchronized"]
+- ["s8HashableP", "type"]
+- ["s8HashableP", "undefined"]
+- ["s8HashableP", "unsignedChar"]
+- ["s8HashableP", "unsignedInt"]
+- ["s8HashableP", "unsignedLong"]
+- ["s8HashableP", "unsignedLongLong"]
+- ["s8HashableP", "unsignedShort"]
+- ["Si", "init"]
+- !private ["s4Int8V", "init"]
+- !private ["13ReactiveSwift8LifetimeC", "ended"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "alignment"]
+- !private ["s12MemoryLayoutO", "size"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "reserveCapacity"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "AnyClass"]
+- ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "AssociationKey"]
+- !private ["So8NSObjectC", "Associations"]
+- !private ["So8NSObjectC", "InterceptingState"]
+- !private ["So8NSObjectC", "NSMethodSignature"]
+- ["So8NSObjectC", "NoError"]
+- !private ["So8NSObjectC", "ReactiveCocoa"]
+- ["So8NSObjectC", "Selector"]
+- !private ["So8NSObjectC", "SelectorCache"]
+- ["So8NSObjectC", "Signal"]
+- !private ["So8NSObjectC", "SignatureCache"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "_rac_objc_msgForward"]
+- !private ["So8NSObjectC", "assert"]
+- !private ["So8NSObjectC", "associations"]
+- !private ["So8NSObjectC", "checkTypeEncoding"]
+- !private ["So8NSObjectC", "class_addMethod"]
+- !private ["So8NSObjectC", "class_getImmediateMethod"]
+- !private ["So8NSObjectC", "class_getInstanceMethod"]
+- !private ["So8NSObjectC", "class_replaceMethod"]
+- !private ["So8NSObjectC", "class_respondsToSelector"]
+- !private ["So8NSObjectC", "deinit"]
+- !private ["So8NSObjectC", "enableMessageForwarding"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intercept"]
+- !private ["So8NSObjectC", "interceptedKey"]
+- !private ["So8NSObjectC", "method_getImplementation"]
+- !private ["So8NSObjectC", "method_getTypeEncoding"]
+- !private ["So8NSObjectC", "objcClass"]
+- !private ["So8NSObjectC", "precondition"]
+- !private ["So8NSObjectC", "reactive"]
+- !private ["So8NSObjectC", "selectorCacheKey"]
+- !private ["So8NSObjectC", "setupMethodSignatureCaching"]
+- !private ["So8NSObjectC", "signatureCacheKey"]
+- !private ["So8NSObjectC", "swizzleClass"]
+- !private ["So8NSObjectC", "synchronized"]
+- !private ["So16NSObjectProtocolP", "AssociationKey"]
+- !private ["So16NSObjectProtocolP", "Associations"]
+- !private ["So16NSObjectProtocolP", "InterceptingState"]
+- !private ["So16NSObjectProtocolP", "NSMethodSignature"]
+- !private ["So16NSObjectProtocolP", "ReactiveCocoa"]
+- !private ["So16NSObjectProtocolP", "SelectorCache"]
+- !private ["So16NSObjectProtocolP", "SignatureCache"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "_rac_objc_msgForward"]
+- !private ["So16NSObjectProtocolP", "assert"]
+- !private ["So16NSObjectProtocolP", "associations"]
+- !private ["So16NSObjectProtocolP", "checkTypeEncoding"]
+- !private ["So16NSObjectProtocolP", "class_addMethod"]
+- !private ["So16NSObjectProtocolP", "class_getImmediateMethod"]
+- !private ["So16NSObjectProtocolP", "class_getInstanceMethod"]
+- !private ["So16NSObjectProtocolP", "class_replaceMethod"]
+- !private ["So16NSObjectProtocolP", "class_respondsToSelector"]
+- !private ["So16NSObjectProtocolP", "enableMessageForwarding"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "intercept"]
+- !private ["So16NSObjectProtocolP", "interceptedKey"]
+- !private ["So16NSObjectProtocolP", "method_getImplementation"]
+- !private ["So16NSObjectProtocolP", "method_getTypeEncoding"]
+- !private ["So16NSObjectProtocolP", "objcClass"]
+- !private ["So16NSObjectProtocolP", "precondition"]
+- !private ["So16NSObjectProtocolP", "reactive"]
+- !private ["So16NSObjectProtocolP", "selectorCacheKey"]
+- !private ["So16NSObjectProtocolP", "setupMethodSignatureCaching"]
+- !private ["So16NSObjectProtocolP", "signatureCacheKey"]
+- !private ["So16NSObjectProtocolP", "swizzleClass"]
+- !private ["So16NSObjectProtocolP", "synchronized"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So7NSValueC", "init"]
+- ["s7NumericP", "init"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "forwardInvocation"]
+- !private ["13ReactiveCocoa18ObjCMethodEncodingO", "methodSignatureForSelector"]
+- !private ["13ReactiveCocoa12ObjCSelectorO", "forwardInvocation"]
+- !private ["13ReactiveCocoa12ObjCSelectorO", "methodSignatureForSelector"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "bool"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "char"]
+- !private ["13ReactiveCocoa16ObjCTypeEncodingO", "deinit"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "double"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "float"]
+- !private ["13ReactiveCocoa16ObjCTypeEncodingO", "init"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "int"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "long"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "longLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "object"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "selector"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "short"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "type"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "undefined"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedChar"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedInt"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedLongLong"]
+- ["13ReactiveCocoa16ObjCTypeEncodingO", "unsignedShort"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "send"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendCompleted"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "map"]
+- !private ["Sq", "undefined"]
+- !private ["13ReactiveSwift16OptionalProtocolP", "flatMap"]
+- !private ["13ReactiveSwift16OptionalProtocolP", "map"]
+- !private ["13ReactiveSwift16OptionalProtocolP", "undefined"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "reserveCapacity"]
+- !private ["s5RangeV", "map"]
+- !private ["s15RangeExpressionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "reserveCapacity"]
+- !private ["s16RawRepresentableP", "ascii"]
+- ["s16RawRepresentableP", "bool"]
+- ["s16RawRepresentableP", "char"]
+- ["s16RawRepresentableP", "double"]
+- ["s16RawRepresentableP", "float"]
+- !private ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "int"]
+- ["s16RawRepresentableP", "long"]
+- ["s16RawRepresentableP", "longLong"]
+- ["s16RawRepresentableP", "object"]
+- ["s16RawRepresentableP", "selector"]
+- ["s16RawRepresentableP", "short"]
+- ["s16RawRepresentableP", "type"]
+- ["s16RawRepresentableP", "undefined"]
+- ["s16RawRepresentableP", "unsignedChar"]
+- ["s16RawRepresentableP", "unsignedInt"]
+- ["s16RawRepresentableP", "unsignedLong"]
+- ["s16RawRepresentableP", "unsignedLongLong"]
+- ["s16RawRepresentableP", "unsignedShort"]
+- ["13ReactiveSwift0A0V", "NSObject"]
+- ["13ReactiveSwift0A0V", "NoError"]
+- ["13ReactiveSwift0A0V", "Selector"]
+- ["13ReactiveSwift0A0V", "Signal"]
+- !private ["13ReactiveSwift0A0V", "base"]
+- !private ["13ReactiveSwift0A0V", "lifetime"]
+- ["13ReactiveSwift0A0V", "signal"]
+- ["13ReactiveSwift0A0V", "trigger"]
+- !private ["13ReactiveSwift0A0V", "unpackInvocation"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "AssociationKey"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "Associations"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "InterceptingState"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "NSMethodSignature"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "ReactiveCocoa"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "SelectorCache"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "SignatureCache"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "String"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "_rac_objc_msgForward"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "assert"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "associations"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "checkTypeEncoding"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "class_addMethod"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "class_getImmediateMethod"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "class_getInstanceMethod"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "class_replaceMethod"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "class_respondsToSelector"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "enableMessageForwarding"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "fatalError"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "init"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "intercept"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "interceptedKey"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "method_getImplementation"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "method_getTypeEncoding"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "objcClass"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "precondition"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "reactive"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "selectorCacheKey"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "setupMethodSignatureCaching"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "signatureCacheKey"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "swizzleClass"]
+- !private ["13ReactiveSwift0A18ExtensionsProviderP", "synchronized"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- !private ["10ObjectiveC8SelectorV", "alias"]
+- !private ["10ObjectiveC8SelectorV", "interopAlias"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "reserveCapacity"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13ReactiveSwift6SignalC", "map"]
+- !private ["13ReactiveSwift6SignalC", "observeCompleted"]
+- ["13ReactiveSwift6SignalC", "pipe"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "map"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observeCompleted"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "pipe"]
+- !private ["13ReactiveSwift14SignalProtocolP", "map"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observeCompleted"]
+- ["13ReactiveSwift14SignalProtocolP", "pipe"]
+- ["s13SignedIntegerP", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "deallocate"]
+- ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["s9UnmanagedV", "takeUnretainedValue"]
+- !private ["Sp", "pointee"]
+- !private ["Sv", "allocate"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "deallocate"]
+- !private ["SP", "pointee"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reserveCapacity"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AssociationKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Associations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "InterceptingState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMethodSignature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReactiveCocoa"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SelectorCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SignatureCache"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_rac_objc_msgForward"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "assert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "associations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkTypeEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_addMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_getImmediateMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_getInstanceMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_replaceMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "class_respondsToSelector"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enableMessageForwarding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intercept"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interceptedKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method_getImplementation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method_getTypeEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "objcClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "precondition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reactive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectorCacheKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupMethodSignatureCaching"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signatureCacheKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swizzleClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synchronized"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "undefined"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "13ReactiveCocoa14AssociationKeyV"
+- !private "13ReactiveCocoa12AssociationsV"
+- !private "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- "13ReactiveSwift13BindingSourceP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "Si"
+- !private "s4Int8V"
+- !private "13ReactiveSwift8LifetimeC"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "s7NumericP"
+- !private "13ReactiveCocoa18ObjCMethodEncodingO"
+- !private "13ReactiveCocoa12ObjCSelectorO"
+- "13ReactiveCocoa16ObjCTypeEncodingO"
+- !private "13ReactiveSwift6SignalC8ObserverC"
+- !private "Sq"
+- !private "13ReactiveSwift16OptionalProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "13ReactiveSwift0A0V"
+- !private "13ReactiveSwift0A18ExtensionsProviderP"
+- !private "s7UnicodeO6ScalarV"
+- !private "10ObjectiveC8SelectorV"
+- !private "s8SequenceP"
+- "13ReactiveSwift6SignalC"
+- "13ReactiveSwift25SignalProducerConvertibleP"
+- "13ReactiveSwift14SignalProtocolP"
+- "s13SignedIntegerP"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s5UInt8V"
+- !private "s9UnmanagedV"
+- !private "Sp"
+- !private "Sv"
+- !private "SP"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+- !private "objcArgumentType"
+- !private "objcCopy"
+- !private "objcInvoke"
+- !private "objcMethodSignature"
+- !private "objcNumberOfArguments"
+- !private "objcSetSelector"
+- !private "objcSignature"
+- !private "selector"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ReactiveCocoa.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/Pods/ReactiveCocoa/ReactiveCocoa/ObjCRuntimeAliases.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveCocoa.build/unextended-module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/module.modulemap"
+- "/Users/linjianguo/Desktop/ReactiveCoCoDemo/DerivedData/ReactiveCoCoDemo/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "75255db6fa03aff8cae61305c854e15b"
